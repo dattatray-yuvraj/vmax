@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.896" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/yuvrajargade/Desktop/VMax/target/test-classes:/Users/yuvrajargade/Desktop/VMax/target/classes:/Users/yuvrajargade/.m2/repository/com/microsoft/playwright/playwright/1.28.0/playwright-1.28.0.jar:/Users/yuvrajargade/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/yuvrajargade/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yuvrajargade/.m2/repository/com/microsoft/playwright/driver/1.28.0/driver-1.28.0.jar:/Users/yuvrajargade/.m2/repository/com/microsoft/playwright/driver-bundle/1.28.0/driver-bundle-1.28.0.jar:/Users/yuvrajargade/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/Users/yuvrajargade/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/yuvrajargade/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/yuvrajargade/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/yuvrajargade/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/yuvrajargade/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/yuvrajargade/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/yuvrajargade/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/yuvrajargade/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/yuvrajargade/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/yuvrajargade/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/yuvrajargade/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.16.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yuvrajargade/Desktop/VMax/target/surefire/surefirebooter633298058602092989.jar /Users/yuvrajargade/Desktop/VMax/target/surefire 2023-05-08T20-16-40_284-jvmRun1 surefire7652048508904842733tmp surefire_017264388263778956196tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/yuvrajargade/Desktop/VMax/target/test-classes:/Users/yuvrajargade/Desktop/VMax/target/classes:/Users/yuvrajargade/.m2/repository/com/microsoft/playwright/playwright/1.28.0/playwright-1.28.0.jar:/Users/yuvrajargade/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/yuvrajargade/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yuvrajargade/.m2/repository/com/microsoft/playwright/driver/1.28.0/driver-1.28.0.jar:/Users/yuvrajargade/.m2/repository/com/microsoft/playwright/driver-bundle/1.28.0/driver-bundle-1.28.0.jar:/Users/yuvrajargade/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/Users/yuvrajargade/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/yuvrajargade/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/yuvrajargade/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/yuvrajargade/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/yuvrajargade/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/yuvrajargade/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/yuvrajargade/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/yuvrajargade/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/yuvrajargade/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/yuvrajargade/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/yuvrajargade/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yuvrajargade"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.16.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Users/yuvrajargade/Desktop/VMax"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/yuvrajargade/Desktop/VMax/target/surefire/surefirebooter633298058602092989.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="user.name" value="yuvrajargade"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/yuvrajargade/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/qy/7xg0d6jj35z3w9txjjb08l0m0000gn/T/"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="/Users/yuvrajargade/Desktop/VMax"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/yuvrajargade/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="VerifyLoginPageHeadingText" classname="tests.loginPage.LoginPageTests" time="5.071">
+    <system-out><![CDATA[Browser Type: Chrome property file: playwright.properties
+*** Test Suite LoginPageTests started ***
+loaded properties successfully:{baseUrl=https://hotfix.absoluhealthcare.com/, password=123, testRetryCount=2, userName=xyz}
+Common.browserType: Chrome
+*** Running test method VerifyLoginPageHeadingText...
+*** Executed VerifyLoginPageHeadingText test successfully...
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

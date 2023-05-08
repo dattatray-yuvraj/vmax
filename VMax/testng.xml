@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.playwright.listeners.TestListeners"/>
+        <listener class-name="com.playwright.listeners.AnnotationTransformer"/>
+    </listeners>
+    <parameter name="propertyFile" value="playwright.properties"/>
+    <parameter name="browser" value="Chrome"/>
+    <test preserve-order="true" name="LoginPageTests">
+        <classes>
+            <class name="tests.loginPage.LoginPageTests">
+                <methods>
+                    <include name="VerifyLoginPageHeadingText"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
